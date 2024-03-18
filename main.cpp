@@ -14,7 +14,13 @@ int main()
     cout << "\n\tBienvenido" << endl;
     cout << "\t----------" << endl;
     cout << "\nEscribe la unidad que desea convertir: "; cin >> number;
+    
+    // Linux
+    // system("clear");
+    
+    // Windows
     system("cls");
+
     cout << "\n\tOpciones" << endl;
     cout << "\t--------" << endl;
     cout << "\n\t1. Peta (P) " << endl;
